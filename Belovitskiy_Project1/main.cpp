@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-	string inputText;
+	char inputCh;
 
-	cout << "Hello world" << endl << "Please, input text: ";
-	cin >> inputText;
-	cout << "You entered: " << inputText << endl;
+	cout << "Hello world" << endl << "Please, input symbol: ";
+	cin >> inputCh;
+	cout << "You entered: " << inputCh << endl;
 
 	return 0;
 }
